@@ -1,8 +1,8 @@
-These are the basic needed files and folders to build CachyOS system.
+These are the basic needed files and folders to build THINXOS system.
 
 ### buildiso
 
-buildiso is used to build CachyOS ISO.
+buildiso is used to build THINXOS ISO.
 
 #### Arguments
 
@@ -23,9 +23,9 @@ Usage: buildiso [options]
 `sudo pacman -S archiso mkinitcpio-archiso git squashfs-tools --needed`
 
 Clone:\
-`git clone https://github.com/cachyos/cachyos-live-iso.git cachyos-archiso`
+`git clone git@github.com:s0u7a/THIN-X-OS.git THINXOS-archiso`
 
-`cd cachyos-archiso`
+`cd THINXOS-archiso`
 
 ## Build
 `sudo ./buildiso.sh -p kde -v`
